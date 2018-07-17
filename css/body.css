@@ -1,0 +1,151 @@
+#body{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.skills-experience{
+    width:100%;
+    background-color: black;
+    color:white;
+    padding:40px 0px;
+    display: flex; 
+    flex-direction:row;
+    justify-content: center; 
+}
+.skills-experience-container{
+    margin:auto;
+    width:80%;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.skills-experience-container h1{
+    width:100%;
+    margin-bottom:10px;
+}
+.list-skills-container{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.primary-skills,.major-skills{
+    width:45%;
+}
+.list-skills-container{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+
+}
+.skills-container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.skills-container>div{
+    margin:10px;
+}
+.skills-container h3.skill-name{
+    width:100%;
+    margin:10px;
+
+}
+.skills-container .skill-container{
+    width:100%;
+    background-color: gray;
+    height:2px;
+}
+
+
+
+
+
+.skills-container:hover .skill{
+   transform:scale(1,2);
+}
+.html .skill{
+    width:92%;
+    background-color:white;
+    height:3px;
+}
+.javascript .skill{
+    width:95%;
+    background-color:yellow;
+    height:3px;
+}
+.jQuery .skill{
+    width:80%;
+    background-color:orange;
+    height:3px;
+}
+.angularJs .skill{
+    width:90%;
+    background-color:red;
+    height:3px;
+}
+.reactJs .skill{
+    width:95%;
+    background-color:#0086FF;
+    height:3px;
+}
+.angular5 .skill{
+    width:85%;
+    background-color:red;
+    height:3px;
+}
+.nodeJs .skill{
+    width:78%;
+    background-color:greenyellow;
+    height:3px;
+}
+.mongoDb .skill{
+    width:75%;
+    background-color:darkgreen;
+    height:3px;
+}
+
+.tools{
+    margin:20px 0px;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+   
+}
+.tools .dev-ops{
+   
+    display: flex;
+    flex-direction: row;
+}
+.dev-ops img{
+    width:50px;
+    height:50px;
+    margin:20px;
+    border-radius: 50%;
+    border:2px solid rgb(153, 152, 152);
+    padding:10px;
+}
+.dev-ops img:hover{
+    transform:scale(1.5,1.5);
+}
+.dev-ops img#grunt:hover{
+    border-color: orange;
+}
+.dev-ops img#karma:hover{
+    border-color: rgb(7, 129, 7);
+}
+.dev-ops img#jasmine:hover{
+    border-color: rgb(74, 9, 136);
+}
+.dev-ops img#mocha:hover{
+    border-color: rgb(90, 77, 77);
+}
+.dev-ops img#chai:hover{
+    border-color: rgb(221, 167, 66);
+}

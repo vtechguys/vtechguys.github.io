@@ -1,0 +1,81 @@
+#header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:40px;
+}
+.head-top{
+    width:80%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.head-top .info{
+    width:70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.info img.profile-img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    margin-right:20px;
+}
+.info .candidate-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.head-top .social{
+    width:13%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.social i{
+    font-size:40px;
+    color:rgb(153, 152, 152);
+}
+.fa-facebook-square:hover{
+    color:#365899;
+}
+.fa-twitter-square:hover{
+    color:#1da1f2;
+}
+.fa-linkedin-square:hover{
+    color:#007bb5;   
+}
+.head-bottom{
+    margin:40px 0px;
+    padding-top:20px;
+    padding-bottom:20px;
+    width:80%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    border:0.5px solid rgb(153, 152, 152);
+    border-left-color:transparent;
+    border-right-color:transparent;
+}
+.head-bottom .contact{
+    width:20%;
+    display: flex;
+    flex-direction: row;
+}
+.contact i{
+    font-size:30px;
+    color:rgb(153, 152, 152);
+    margin-right:10px;
+}
+.contact p.contact-info{
+    color:rgb(153, 152, 152);
+    font-size:18px;
+    align-self: center;
+}
+.head-bottom-branch-info{
+    color:rgb(153, 152, 152);
+    font-weight:100;
+}
