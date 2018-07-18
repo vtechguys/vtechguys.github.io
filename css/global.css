@@ -27,8 +27,16 @@ p{
     padding:0px;
 }
 .occupier{
+    box-sizing: border-box;
     width:100%;
     background-color:black;
     padding:.8em;
 }
 
+a{
+    display:block;
+    margin:0px;
+    padding:0px;
+    text-decoration: none;
+    color: inherit;
+}

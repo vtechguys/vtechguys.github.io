@@ -6,6 +6,7 @@
 }
 
 .skills-experience{
+    margin:40px 0px;
     width:100%;
     background-color: black;
     color:white;
@@ -57,6 +58,7 @@
     margin:10px;
 
 }
+
 .skills-container .skill-container{
     width:100%;
     background-color: gray;
@@ -112,7 +114,7 @@
 }
 
 .tools{
-    margin:20px 0px;
+    margin:40px 0px;
     text-align:center;
     display:flex;
     flex-direction: column;
@@ -148,4 +150,53 @@
 }
 .dev-ops img#chai:hover{
     border-color: rgb(221, 167, 66);
+}
+
+
+
+
+@media(max-width:700px){
+    .skills-experience{
+        margin:20px 0px;
+    }
+    .tools{
+        margin:20px 0px;
+    }
+    .dev-ops img{
+        width:35px;
+        height:35px;
+    }
+    .skills-experience-container h1{
+        font-size:20px;
+        font-weight:800;
+    }
+    
+}
+@media(max-width:500px){
+    .list-skills-container{
+        display:flex;
+        flex-direction:column;
+    }
+    .primary-skills,.major-skills{
+        width:100%;
+    }
+   
+    h3.skill-name{
+        font-weight:15px;
+        font-weight:100;
+    }
+    .tools .dev-ops{
+   
+        display: flex;
+        flex-direction: row;
+    }
+    .dev-ops img{
+        width:30px;
+        height:30px;
+        margin:10px;
+        border-radius: 50%;
+        border:1px solid rgb(153, 152, 152);
+        padding:5px;
+    }
+
 }

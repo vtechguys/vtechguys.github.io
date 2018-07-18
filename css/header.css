@@ -2,7 +2,11 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-    margin:40px;
+   
+}
+#header .occupier{
+    width:100%;
+    margin-bottom:40px ;
 }
 .head-top{
     width:80%;
@@ -78,4 +82,127 @@
 .head-bottom-branch-info{
     color:rgb(153, 152, 152);
     font-weight:100;
+}
+a.contact:hover p{
+    color:green;
+}
+a.contact:hover .fa-envelope{
+    color:rgb(194, 4, 4)
+}
+a.contact:hover .fa-github{
+    color:black;
+}
+a.contact:hover .fa-mobile{
+    color:black;
+}
+@media(max-width:700px){
+    .info{
+        width:60%;
+    }
+    .info img.profile-img{
+        width:70px !important;
+        height:70px;
+    }
+    .skills-experience-container h1{
+        font-size:25px;
+    }
+    .info .candidate-info h2{
+        font-size:20px;
+    }
+    .info .candidate-info p{
+        font-size:15px;
+    }
+    .head-top .social{
+        width:20%;
+    }
+    .social i{
+        font-size:30px;
+    }
+
+    .contact i{
+        font-size:25px;
+    }
+    .contact p.contact-info{
+        font-size:13px;
+    }
+    .head-bottom-branch-info h2{
+        text-align: center;
+
+        margin:auto 20px;
+        font-size:15px;
+    }
+}
+@media(max-width:500px){
+    .info{width:70%;}
+    .head-top .social{
+        width:20%;
+    }
+    .social i{
+        font-size:25px;
+    }
+    .head-bottom{
+        margin:20px;
+        display:flex;
+        flex-direction:column;
+    }
+    .contact{
+        width:100%;
+        margin:5px 0px;
+    }
+    .contact:last-child{
+        margin-left:5px;
+    }
+    .contact i{
+        font-size:350x;
+    }
+    .contact p.contact-info{
+        font-size:16px;
+    }
+    .head-bottom-branch-info h2{
+        text-align: center;
+
+        margin:auto 20px;
+        font-size:15px;
+    }
+}
+@media(max-width:425px){
+    .info{
+        width:65%;
+    }
+
+    .head-top .social{
+        width:25%;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .social i{
+        font-size:25px;
+        margin:2px;
+    }
+}
+@media(max-width:325px){
+
+    .head-top{
+        flex-direction: column;
+    }
+    
+    .head-top .social{
+        align-self: flex-end;
+    }
+    .info{
+        width:100% !important;
+    }
+}
+
+@media(min-width:701px) and (max-width:1140px){
+    .social i{
+        margin:0px 5px;
+
+    }
+    .head-bottom-branch-info h2{
+        text-align:center;
+        margin:auto 20px;
+    }
 }
