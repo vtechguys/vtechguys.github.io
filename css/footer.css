@@ -35,7 +35,7 @@
     border-color: rgb(7, 129, 7);
     color: rgb(7, 129, 7);
 }
-.hidden{
+#footer .social p small.hidden{
     display:none;
 }
 .visible {
