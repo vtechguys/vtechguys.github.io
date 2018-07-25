@@ -263,9 +263,10 @@
                         text:'Resume of Aniket Jha | vtechguys',
                         url  : 'https://vtechguys.github.io/'
                     }
-                ).then().catch(alert("Error"));
+                ).then().catch();
             }
             else{
+                
                 copyToClipBoard();
             }
         }
@@ -277,6 +278,7 @@
 
             let  resumeURL = "https://vtechguys.github.io/"
             document.execCommand("copy",resumeURL);
+            alert("Copied");
             
         } 
        
