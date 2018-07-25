@@ -163,3 +163,26 @@
     .left{left:-3%;}
     
 }
+.content p a{
+    color:green;
+}
+.content  .react-js{
+    color:skyblue;
+    font-weight:200;
+    font-size:18px;
+}
+.content  .node-js{
+    color:greenyellow;
+    font-weight:200;
+    font-size:18px;
+}
+.content  .firebase{
+    color:rgb(255, 208, 0);
+    font-weight:200;
+    font-size:18px;
+}
+.content  .java{
+    color:red;
+    font-weight:200;
+    font-size:18px;
+}

@@ -35,3 +35,25 @@
     border-color: rgb(7, 129, 7);
     color: rgb(7, 129, 7);
 }
+.hidden{
+    display:none;
+}
+.visible {
+        display:inline;
+}
+#footer .social .notify{
+    text-align: center;
+   
+}
+a.project-link{
+  
+    animation-name: flash;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes flash{
+    0%{color:rgb(7, 129, 7);}
+    50%{color:blueviolet;}
+    100% {color:orange}    
+}
