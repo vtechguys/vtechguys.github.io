@@ -232,7 +232,7 @@
                 <p  onclick="shareResume()">
                     <i class="fa fa-share-alt" aria-hidden="true" id="resume-link"></i>
                     <br/>
-                    <small  class="hidden" id="copy-notification" value="https://vtechguys.github.io/">Copied</small>            
+                    <small  class="hidden" id="copy-notification" >Copied</small>            
 
                 </p>
                 <a href="https://stackoverflow.com/users/7579856/aniket-jha">
@@ -255,7 +255,7 @@
        
         function shareResume(){
             console.log("share resume")
-            if (navigator.share !== undefined) {
+            if (navigator.share) {
                 
                 window.navigator.share(
                     {
@@ -263,7 +263,7 @@
                         text:'Resume of Aniket Jha | vtechguys',
                         url  : 'https://vtechguys.github.io/'
                     }
-                ).then().catch(copyToClipBoard());
+                ).then(function(success){console.log("Done sharing",success}).catch(alert("Error"));
             }
             else{
                 copyToClipBoard();
