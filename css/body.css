@@ -112,7 +112,16 @@
     background-color:darkgreen;
     height:3px;
 }
-
+.blockChain .skill{
+    width:75%;
+    background-color:#0050FF;
+    height:3px;
+}
+.aws .skill{
+    width:75%;
+    background-color:orange;
+    height:3px;
+}
 .tools{
     margin:40px 0px;
     text-align:center;
