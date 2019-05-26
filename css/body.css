@@ -107,6 +107,11 @@
     background-color:greenyellow;
     height:3px;
 }
+.electronJs .skill{
+    width: 75%;
+    background-color: #0086FF;
+    heigth: 3px;
+}
 .mongoDb .skill{
     width:75%;
     background-color:darkgreen;
@@ -159,6 +164,9 @@
 }
 .dev-ops img#chai:hover{
     border-color: rgb(221, 167, 66);
+}
+.dev-ops img#webpack:hover{
+    border-color: #0ed4f8;
 }
 
 
