@@ -168,6 +168,25 @@
 .dev-ops img#webpack:hover{
     border-color: #0ed4f8;
 }
+.dev-ops img#webrtc:hover{
+    border-top-color: red;
+    border-bottom-color: blue;
+    border-rigth-color: green;
+    border-left-color: yellow;
+
+
+
+}
+.dev-ops img#socketio:hover{
+    border-color: rgb(74, 9, 136);
+}
+.dev-ops img#redis:hover{
+    border-color: red;
+}
+.dev-ops img#docker:hover{
+    border-color: #2dcece;
+}
+
 
 
 
