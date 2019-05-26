@@ -340,7 +340,7 @@
                     {
                         title: 'Resume: @Aniket Jha',
                         text:'Resume of Aniket Jha | vtechguys',
-                        url  : 'https://vtechguys.github.io/'
+                        url  : 'https://aniketjha.netlify.com/'
                     }
                 ).then().catch();
             }
@@ -350,13 +350,13 @@
             }
         }
         function copyToClipBoard(){
-            
+            let  resumeURL = "https://aniketjha.netlify.com/"
+            document.execCommand("copy", resumeURL);
             let copyNotification = document.getElementById("copy-notification")
                     .className="visible notify";
             
 
-            let  resumeURL = "https://vtechguys.github.io/"
-            document.execCommand("copy",resumeURL);
+            
             
             
         } 
