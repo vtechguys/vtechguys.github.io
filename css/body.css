@@ -4,7 +4,16 @@
     flex-direction:column;
     align-items: center;
 }
-
+.head-top{
+    display: flex;
+    flex-direction: row;
+}
+.head-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
 .skills-experience{
     margin:40px 0px;
     width:100%;
@@ -21,111 +30,39 @@
 
     display: flex;
     flex-direction: column;
+    text-align: center;
 
 }
 
 .skills-experience-container h1{
     width:100%;
-    margin-bottom:10px;
+  
 }
 .list-skills-container{
+    margin-top: 20px;;
     width:100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    
+    justify-content: space-around;
 }
-.primary-skills,.major-skills{
-    width:45%;
-}
-.list-skills-container{
-    width:100%;
-    display: flex;
-    flex-direction: row;
-
-}
-.skills-container{
-    width:100%;
-    display: flex;
-    flex-direction: column;
-
-}
-.skills-container>div{
-    margin:10px;
-}
-.skills-container h3.skill-name{
-    width:100%;
-    margin:10px;
-
+.list-skills-container i{
+    font-size: 32px;
 }
 
-.skills-container .skill-container{
-    width:100%;
-    background-color: gray;
-    height:2px;
+#html-icon{
+    color: rgb(247, 164, 11);
 }
-
-
-
-
-
-.skills-container:hover .skill{
-   transform:scale(1,2);
+#css-icon{
+    color: rgb(0, 110, 253);
 }
-.html .skill{
-    width:92%;
-    background-color:white;
-    height:3px;
+#js-icon{
+    color: rgb(249, 253, 0);
 }
-.javascript .skill{
-    width:95%;
-    background-color:yellow;
-    height:3px;
+#react-icon{
+    color: rgb(2, 66, 240);
 }
-.jQuery .skill{
-    width:80%;
-    background-color:orange;
-    height:3px;
-}
-.angularJs .skill{
-    width:90%;
-    background-color:red;
-    height:3px;
-}
-.reactJs .skill{
-    width:95%;
-    background-color:#0086FF;
-    height:3px;
-}
-.angular5 .skill{
-    width:85%;
-    background-color:red;
-    height:3px;
-}
-.nodeJs .skill{
-    width:78%;
-    background-color:greenyellow;
-    height:3px;
-}
-.electronJs .skill{
-    width: 75%;
-    background-color: #2dcece;
-    height: 3px;
-}
-.mongoDb .skill{
-    width:75%;
-    background-color:darkgreen;
-    height:3px;
-}
-.blockChain .skill{
-    width:55%;
-    background-color:#0050FF;
-    height:3px;
-}
-.aws .skill{
-    width:75%;
-    background-color:orange;
-    height:3px;
+#node-icon{
+    color: rgb(153, 255, 0);
 }
 .tools{
     margin:40px 0px;
@@ -208,18 +145,28 @@
     }
     
 }
+.head-top .social{
+    display: flex;
+    flex-direction: row;
+}
 @media(max-width:500px){
     .list-skills-container{
         display:flex;
-        flex-direction:column;
+        flex-direction:row;
     }
     .primary-skills,.major-skills{
         width:100%;
     }
-   
-    h3.skill-name{
-        font-weight:15px;
-        font-weight:100;
+    .head-top {
+        display: flex;
+        flex-direction: column;
+    }
+    .head-top .social{
+       margin-top:20px ;
+       width: 100%;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
     }
     .tools .dev-ops{
    
@@ -235,4 +182,12 @@
         padding:5px;
     }
 
+}
+.caption{
+    font-size: 12px;
+    margin: 5px;
+}
+.company-head{
+    display: flex;
+    flex-direction: row;
 }
